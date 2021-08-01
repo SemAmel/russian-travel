@@ -4,7 +4,7 @@
 
 Используются все знания, которые были получены в ходе третьего модуля в курсе **"Веб-разбаботчик"**
 
-<img src="/images/logo_place_header.svg" width="183" height="32">
+<img src="./images/readme.logoY/logoY.svg" width="183" height="32">
 
 ## Описание проекта
 
