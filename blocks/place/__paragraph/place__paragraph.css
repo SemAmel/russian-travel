@@ -1,0 +1,43 @@
+.place__paragraph {
+  margin: 0 0 26px;
+  font-family: 'Inter', 'Arial', 'sans-serif';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.place__paragraph:last-of-type {
+  margin: 0;
+}
+
+@media all and (max-width: 870px) {
+  .place__paragraph {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .place__paragraph {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .place__paragraph:last-of-type {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .place__paragraph {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .place__paragraph:last-of-type {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}

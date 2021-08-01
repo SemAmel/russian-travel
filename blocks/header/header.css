@@ -1,0 +1,22 @@
+.header {
+  margin: 0 48px 56px;
+  position: relative;
+}
+
+@media all and (max-width: 1187px) {
+  .header {
+    margin: 0 48px 48px;
+  }
+}
+
+@media all and (max-width: 870px) {
+  .header {
+    margin: 0 24px 48px;
+  }
+}
+
+@media all and (max-width: 730px) {
+  .header {
+    margin: 0 16px 48px;
+  }
+}

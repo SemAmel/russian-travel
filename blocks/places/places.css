@@ -1,0 +1,28 @@
+.places {
+  margin: 92px auto;
+  padding: 0;
+  width: calc(100% - 296px);
+  list-style: none;
+}
+
+@media all and (max-width: 1187px) {
+  .places {
+    width: calc(100% - 96px);
+  }
+}
+
+@media all and (max-width: 870px) {
+  .places {
+    width: calc(100% - 48px);
+    margin-top: 88px;
+    margin-bottom: 90px;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .places {
+    width: 100%;
+    margin-top: 64px;
+    margin-bottom: 66px;
+  }
+}

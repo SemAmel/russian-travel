@@ -1,0 +1,41 @@
+.header__lang-link {
+  color: white;
+  font-family: 'Inter', 'Arial', 'sans-serif';
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 1.2;
+  position: absolute;
+  top: 18px;
+  text-decoration: none;
+  transition: opacity 1s;
+}
+
+.header__lang-link:nth-of-type(1) {
+  right: 47px;
+}
+
+.header__lang-link:nth-of-type(2) {
+  right: 0;
+}
+
+.header__lang-link:hover {
+  opacity: .8;
+}
+
+@media all and (max-width: 730px) {
+  .header__lang {
+    top: 14px;
+  }
+
+  .header__lang-link:nth-of-type(1) {
+    right: 40px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .header__lang {
+    font-size: 18px;
+    line-height: 1.1;
+    color:yellow;
+  }
+}
