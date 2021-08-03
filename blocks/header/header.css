@@ -1,6 +1,7 @@
 .header {
   margin: 0 48px 56px;
-  position: relative;
+  display: flex;
+  justify-content: space-between;
 }
 
 @media all and (max-width: 1187px) {
