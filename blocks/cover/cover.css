@@ -1,15 +1,33 @@
 .cover {
   margin: 0 auto;
-  padding: 20% 0;
+  padding: 245px 0;
   width: calc(100% - 96px);
   position: relative;
   background-size: cover;
   background-position: center;
-  background-image: url(../../../images/cover-trains.jpg);
+  background-image: url(../../images/cover-trains.jpg);
 }
 
 @media all and (max-width: 1187px) {
   .cover {
     width: 100%;
+  }
+}
+
+@media all and (max-width: 1030px) {
+  .cover {
+    padding: 195px 0;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .cover {
+    padding: 115px 0;
+  }
+}
+
+@media all and (max-width: 450px) {
+  .cover {
+    padding: 33px 0;
   }
 }

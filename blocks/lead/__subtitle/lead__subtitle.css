@@ -15,7 +15,7 @@
   }
 }
 
-@media all and (max-width: 730px) {
+@media all and (max-width: 740px) {
   .lead__subtitle {
     margin: 16px auto 40px;
     font-size: 16px;

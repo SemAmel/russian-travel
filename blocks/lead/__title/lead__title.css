@@ -9,7 +9,7 @@
   text-align: center;
 }
 
-@media all and (max-width: 730px) {
+@media all and (max-width: 740px) {
   .lead__title {
     font-size: 70px;
     line-height: 1.1;
@@ -17,7 +17,7 @@
   }
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 510px) {
   .lead__title {
     font-size: 40px;
     width: 288px;

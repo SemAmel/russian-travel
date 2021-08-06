@@ -8,14 +8,14 @@
 @media all and (max-width: 870px) {
   .footer {
     margin-top: 88px;
+    width: calc(100% - 48px);
   }
 }
 
-@media all and (max-width: 760px) {
+@media all and (max-width: 720px) {
   .footer {
     flex-direction: column;
     margin-top: 64px;
-    width: calc(100% - 48px);
   }
 }
 

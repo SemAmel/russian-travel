@@ -11,7 +11,15 @@
   text-align: center;
 }
 
-@media all and (max-width: 560px) {
+@media all and (max-width: 740px) {
+  .cover__title {
+    font-size: 50px;
+    line-height: 1.1;
+    width: minmax(min-content, 560px);
+  }
+}
+
+@media all and (max-width: 580px) {
   .cover__title {
     width: 250px;
     font-size: 32px;

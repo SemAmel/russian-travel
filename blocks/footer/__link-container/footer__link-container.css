@@ -1,0 +1,11 @@
+.footer__link-container {
+  width: min-content;
+  display: flex;
+  align-items: flex-start;
+}
+
+@media all and (max-width: 720px) {
+  .footer__link-container {
+    flex-direction: column;
+  }
+}
