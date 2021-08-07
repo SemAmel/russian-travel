@@ -13,3 +13,8 @@
 .cover__overlay:hover {
   opacity: .8;
 }
+
+
+.cover__link:hover .cover__overlay{
+  opacity: .8;
+}
